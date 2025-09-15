@@ -7,7 +7,7 @@ class Ghost {
 
 let ghosts = [];
 
-const create_ghost = (ghost) => {
+const addGhost = (ghost) => {
          ghosts.push({
              name: ghost.name,
              dangerLevel: ghost.dangerLevel,
